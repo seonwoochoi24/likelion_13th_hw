@@ -1,0 +1,12 @@
+# 13th_git_session
+-git이란 오픈 소스 분산 버전 제어 시스템이다.
+-git을 팀원들과 공유하기 위해 github를 사용함
+-working directory에서 add를 하면 staging area에서 중간 저장됨.
+-commit을 하면 local repository에 저장됨.
+-push를 하면 remote repository에 저장됨.
+-pull을 하면 local repository로 최신변경사항을 받아옴.
+-push 전 pull을 해줘야 함
+-Fork=다른 사람의 레포지토리를 내 깃허브 계정으로 복사해오는 것
+-Branch=독립적인 작업 공간
+-pull, push, merge, main 최신화, 브랜치 삭제
+-django=웹 어플리케이션 프레임워크=소프트웨어 개발을 효율적으로 만들어줌
