@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<img src="{% static 'images/멋사 로고.png' %}" alt="logo" width="100px">
+<h1 class="contents">{{ generation }}기 {{ name }}의 페이지 </h1>
+
+<div class="contents">{{ week }}주차 세션</div>
+<h2>🦁 배운 것 🦁</h2> 
+<ul>
+    {% for contentLesson in contentLessons %}
+    <li> {{ contentLesson }} </li>
+    {% endfor %}
+</ul>
+<h2>🦁 내용 정리 🦁 </h2>
+<h3>기본내용</h3>
+<ul>
+    {% for lesson in lessons %}
+    <li>{{ lesson }}</li>
+    {% endfor %}
+</ul>
+<h3>html 페이지와 view 연결</h3>
+<ul>
+    {% for lesson1 in lessons1 %}
+    <li>{{ lesson1 }}</li>
+    {% endfor %}
+</ul>
+<h3>html 링크 연결</h3>
+<ul>
+    {% for lesson2 in lessons2 %}
+    <li>{{ lesson2 }}</li>
+    {% endfor %}
+</ul>
+<h3>template 상속</h3>
+<ul>
+    {% for lesson3 in lessons3 %}
+    <li>{{ lesson3 }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
