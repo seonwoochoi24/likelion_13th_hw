@@ -1,3 +1,63 @@
-  h1 {
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+h1 {
     color: orange;
   }
+body {
+  background-color: #f9f6f1;
+  font-family: 'Nanum Pen Script', cursive;
+  color: #3b3b3b;
+  padding: 40px;
+}
+
+.diary-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid #e6ddd1;
+}
+
+.diary-title {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #e2775f;
+  margin-bottom: 10px;
+}
+
+.diary-subtitle {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #a67c52;
+  margin-bottom: 30px;
+}
+
+.diary-content div {
+  font-size: 1.3rem;
+  line-height: 2;
+  margin-bottom: 16px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.diary-content div::before {
+  content: '・';
+  position: absolute;
+  left: -15px;
+  top: 2px;
+  font-size: 1.5rem;
+  color: #d6a27a;
+}
+
+.tomato-img {
+  display: block;
+  margin: 35px auto 0 auto;
+  width: 240px;
+  border-radius: 12px;
+  border: 1.5px solid #e0d4c1;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
